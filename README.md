@@ -1,35 +1,89 @@
-# Git
+# Git과 GitHub
 
-## 윈도우 버전 설치
-깃 프로그램 다운로드  
-https://git-scm.com/downloads  
-![Alt text](image.png)  
+## What
 
-ext 파일 실행하여 인스톨(기본설정 그대로)  
+**사전적 정의**  
 
-깃 설치 확인
-터미널(명령프롬프트)에서 아래 명령어 입력   
-`git --version`
-![Alt text](image-1.png)
+- [ ] Git: 무료 오픈소스 분산 버전 관리 시스템  
+- [ ] GitHub: 깃 저장소 호스팅을 지원하는 웹 서비스
 
-## Mac 버전 설치(With Homebrew)
-https://formulae.brew.sh/formula/git  
-터미널에서 아래 명령어 입력  
-`brew install git`
+## Who
 
-## Git 명령어
-### Git 로컬저장소 생성
-- 버전관리하려는 폴더에서 Git Bash 실행
-- `$ git init` 실행
-- 해당 폴더에 .git 폴더가 생성(숨김폴더이기 때문에 안보일 때는 보기 설정을 변경)
-- .git directory에는 프로젝트의 메타데이터와 각종 정보가 저장
- 
-### Git Staging Area에 커밋할 스냅샷 생성(수정/생성된 파일 추가)
-- `$ git add .`, `$ git add *`: 수정, 생성된 모든파일에 대해 추가
-- `$ git add <fileName>, ...`: 수정된 파일 개개별로 추가
+- [ ] 개발과 관련된 모든 직군 또는 개발을 하는 모든 사람  
 
-### 파일의 수정 내역을 로컬 저장소에 커밋
-- `$ git commit -m "message"`
+## When
 
-### 로컬 저장소의 상태 확인
-- `$ git status`
+- [ ] Git: 혼자서 개발을 진행할 때  
+- [ ] GitHub: 여러사람이 동시에 개발을 진행할 때  
+
+## Where
+
+- [ ] Git: 본인의 PC, 즉 로컬 환경  
+- [ ] GitHub: PC가 있고, 인테넷이 연결되는 환경 어디든
+
+## Why
+
+- [ ] Git: 여러 이슈를 동시에 해결할 때 버전을 관리하기 위해  
+- [ ] GitHub: 다른 개발자와 협업을 위해  
+
+## How
+
+### Git 설치  
+
+**Windows**  
+
+- [ ] 다운로드: https://git-scm.com/downloads  
+- [ ] .exe 파일 실행
+- [ ] 기본 설정으로 설치 진행
+- [ ] 설치 완료 확인
+  - [ ] 터미널 실행: Win + r -> cmd | 명령프롬프트 검색  
+  - [ ] 다음 명령어 입력하여 버전이 나오면 정상적으로 설치 완료  `git --version`  
+    ![Alt text](img/image-1.png)  
+
+**Mac(with Homebrew)**  
+- [ ] 직접 다운로드: https://git-scm.com/downloads  
+- [ ] homebrew를 통한 설치: `brew install git`  
+
+### Git 명령어
+- [ ] `git init`
+- [ ] `git clone`
+- [ ] `git status`
+- [ ] `git add .`
+- [ ] `git commit -m "commit message"`
+- [ ] `git push origin main`
+- [ ] `git pull origin main`
+- [ ] `git fetch`
+- [ ] `git fetch --all --prune`
+- [ ] `git checkout -b feature`
+- [ ] `git switch feature`
+- [ ] `git rebase -i HEAD~2`
+- [ ] `git stash`
+- [ ] `git stash apply @stash{0}`
+- [ ] `git stash drop @stash{0}`
+- [ ] `git merge`
+- [ ] `git merge --squash`
+- [ ] `git cherry-pick hash`
+- [ ] `git log --graph --all`
+- [ ] `git reflog`
+
+### Git gui 툴 사용하기
+
+**gitk**
+- [ ] 윈도우 용은 git 설치하면 자동으로 설치됨
+- [ ] 맥용 git gui 툴 설치
+  - [ ] `brew update`
+  - [ ] `brew install git-gui`
+  - [ ] `gitk --all`
+
+**git kraken**  
+- [ ] 윈도우용, 맥용 다운로드: https://www.gitkraken.com/
+- [ ] 맥 설치: `brew install --cask gitkraken`
+
+**intellij**   
+git log
+- [ ] 윈도우: ctrl + 9
+- [ ] 맥: cmd + 9
+
+git commit
+- [ ] 윈도우: ctrl + 0
+- [ ] 맥: cmd + 0
