@@ -114,9 +114,9 @@ git commit
 
 ### 같이 알아보면 좋은 것
 
-**git branch 전략**
-**git branch 네이밍 컨벤션**
-**github 리뷰**
-**GitLab**
+**git branch 전략**  
+**git branch 네이밍 컨벤션**  
+**github 리뷰**  
+**GitLab**  
 
   
