@@ -112,4 +112,11 @@ git commit
   - Key 영역에 복사해 두었던 id_rsa.pub 전체 내용을 붙여넣고 `Add SSH key` 클릭
     ![Alt text](img/image-4.png)
 
+### 같이 알아보면 좋은 것
+
+**git branch 전략**
+**git branch 네이밍 컨벤션**
+**github 리뷰**
+**GitLab**
+
   
