@@ -90,13 +90,13 @@
 git log
 - [ ] View > Tool Windows > Git
 - [ ] 단축키
-  - [ ] 윈도우: alt + 9
+  - [ ] 윈도우:alt + 9
   - [ ] 맥: cmd + 9
 
 git commit
 - [ ] View > Tool Windows > Git
 - [ ] 단축키
-  - [ ] 윈도우: alt + 0
+  - [ ] 윈도우:alt + 0
   - [ ] 맥: cmd + 0
 
 ### GitHub과 연동하기
