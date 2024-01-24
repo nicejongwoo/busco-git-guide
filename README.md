@@ -43,49 +43,61 @@
 - [ ] 직접 다운로드: https://git-scm.com/downloads  
 - [ ] homebrew를 통한 설치: `brew install git`  
 
-### Git 명령어
+### Git 자주 사용하는 명령어
+홑화살괄호(`<>`) 안에 내용은 상황에 맞게 변경하여 사용
 - [ ] `git init`
-- [ ] `git clone`
+- [ ] `git clone <원격 깃 저장소 주소>`
 - [ ] `git status`
 - [ ] `git add .`
+- [ ] `git add <파일경로>`
 - [ ] `git commit -m "commit message"`
-- [ ] `git push origin main`
-- [ ] `git pull origin main`
+- [ ] `git push origin <브랜치>`
+- [ ] `git pull origin <브랜치>`
 - [ ] `git fetch`
 - [ ] `git fetch --all --prune`
-- [ ] `git checkout -b feature`
-- [ ] `git switch feature`
-- [ ] `git rebase -i HEAD~2`
-- [ ] `git stash`
-- [ ] `git stash apply @stash{0}`
-- [ ] `git stash drop @stash{0}`
-- [ ] `git merge`
-- [ ] `git merge --squash`
-- [ ] `git cherry-pick hash`
+- [ ] `git checkout -b <브랜치>`
+- [ ] `git checkout <브랜치>`
+- [ ] `git branch -d <브랜치>`
+- [ ] `git switch <브랜치>`
+- [ ] `git rebase <브랜치>`
+- [ ] `git rebase -i <HEAD~2>`
+- [ ] `git merge <브랜치>`
+- [ ] `git merge --squash <브랜치>`
+- [ ] `git cherry-pick <커밋 해시코드>`
 - [ ] `git log --graph --all`
 - [ ] `git reflog`
+- [ ] `git revert <브랜치>`
+- [ ] `git reset <HEAD^>`
+- [ ] `git stash`
+- [ ] `git stash list`
+- [ ] `git stash apply <@stash{0}>`
+- [ ] `git stash drop <@stash{0}>`
 
 ### Git gui 툴 사용하기
 
 **gitk**
 - [ ] 윈도우 용은 git 설치하면 자동으로 설치됨
-- [ ] 맥용 git gui 툴 설치
+- [ ] 맥용 터미널에서 설치
   - [ ] `brew update`
   - [ ] `brew install git-gui`
-  - [ ] `gitk --all`
+- [ ] gitk 실행: `gitk --all`
 
 **git kraken**  
-- [ ] 윈도우용, 맥용 다운로드: https://www.gitkraken.com/
-- [ ] 맥 설치: `brew install --cask gitkraken`
+- [ ] 설치용 프로그램 다운로드(윈도우, 맥): https://www.gitkraken.com/
+- [ ] 맥 터미널에서 설치: `brew install --cask gitkraken`
 
 **intellij**   
 git log
-- [ ] 윈도우: ctrl + 9
-- [ ] 맥: cmd + 9
+- [ ] View > Tool Windows > Git
+- [ ] 단축키
+  - [ ] 윈도우: alt + 9
+  - [ ] 맥: cmd + 9
 
 git commit
-- [ ] 윈도우: ctrl + 0
-- [ ] 맥: cmd + 0
+- [ ] View > Tool Windows > Git
+- [ ] 단축키
+  - [ ] 윈도우: alt + 0
+  - [ ] 맥: cmd + 0
 
 ### GitHub과 연동하기
 
@@ -114,9 +126,9 @@ git commit
 
 ### 같이 알아보면 좋은 것
 
-**git branch 전략**  
+**git branch 전략(git workflow)**  
 **git branch 네이밍 컨벤션**  
-**github 리뷰**  
-**GitLab**  
+**코드 리뷰**  
+**[GitLab](https://about.gitlab.com/free-trial/devsecops/?utm_medium=cpc&utm_source=google&utm_campaign=eg_apac_dmp_x_x_en_brand_apac_pr_rsa_br_exact_free-trial&utm_content=free-trial&_bt=363144592744&_bk=gitlab&_bm=e&_bn=g&_bg=75085129886&gad_source=1&gclid=CjwKCAiA5L2tBhBTEiwAdSxJXwJxdEI-X3cnBXiLVFiqtT4pGKmLxwopjmpF8Lxhaxd4RnkvtfPsZBoCEisQAvD_BwE) / [bitbucket](https://bitbucket.org/product?&aceid=&adposition=&adgroup=146989386670&campaign=18815940604&creative=632894031594&device=c&keyword=bitbucket&matchtype=e&network=g&placement=&ds_kids=p74128740641&ds_e=GOOGLE&ds_eid=700000001551985&ds_e1=GOOGLE&gad_source=1&acs_info=ZmluYWxfdXJsOiAiaHR0cHM6Ly9iaXRidWNrZXQub3JnL3Byb2R1Y3QiCg&gclid=CjwKCAiA5L2tBhBTEiwAdSxJXzOgKlFeSbp1yM7fS385BubBj-GWTHTTQBvIgahGg6arTHz3rrwUnRoCtWYQAvD_BwE&gclsrc=aw.ds)**  
 
   
